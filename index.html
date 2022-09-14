@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="main">
+        <form class="container">
+
+            <input id="taille" type="text" value="" placeholder="Entrez votre taille en cm">
+    
+            <input id="poids" type="text" value="" placeholder="Entrez votre poids en kg">
+    
+            <button class="button" type="button" onclick="calculer();"> Calcule ton IMC
+            </button>
+            <button class="button" type="button" value="Reset data" Onclick="window.location.reload()">Faire un nouveau calcul
+            </button>
+        </form>
+        <div class="final">
+            <span id="resultat"></span>
+            <br>
+            <span id="conseils-title">Nos recommandations<span>
+            <hr id="hr">
+            <span id="conseils"></span>
+        </div>
+        <div class="frise">
+            <span>18</span>
+            <span>19</span>
+            <span>20</span>
+            <span>21</span>
+            <span>22</span>
+            <span>23</span>
+            <span>24</span>
+            <span>25</span>
+            <span>26</span>
+            <span>27</span>
+            <span>28</span>
+            <span>29</span>
+            <span>30</span>
+            <span>31</span>
+            <span>32</span>
+            <span>33</span>
+            <span>34</span>
+            <span>35</span>
+            <span>36</span>
+            <span>37</span>
+        </div>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+<footer class="footer">
+    <p>© Vincent Péchon 2022</p>
+</footer>
+</html>
